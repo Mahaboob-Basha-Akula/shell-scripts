@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-devops=DEVOPS
+devops=MAHABOOB
 
 echo "started"
 
