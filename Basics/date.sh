@@ -14,6 +14,6 @@ End_time=$(date +%s)
 
 echo "script completed."
 
-Total_time=$($End_time-$Start_time)
+Total_time=$(($End_time-$Start_time))
 
 echo "Script taken time is $Total_time"
