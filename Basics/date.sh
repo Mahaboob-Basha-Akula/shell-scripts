@@ -1,6 +1,6 @@
 #!/bin/bash
 
 
-VAR_NAME=$(date +%F)
+DATE=$(date +%F)
 
-echo "VAR_NAME"
+echo "time is $DATE"
