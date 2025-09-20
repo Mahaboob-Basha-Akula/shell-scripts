@@ -1,14 +1,16 @@
 #!/bin/bash
 
 
+devops=DEVOPS
+
 echo "started"
 
 echo "in middle of script"
 
 echo "complted"
 
-echo "learning {{$var.Name}}"
+echo "learning $devops"
 
-echo "classes for {{$var.Name}}"
+echo "classes for $devops"
 
-echo " have 3+ years of ecp in {{$var.Name}}"
+echo " have 3+ years of ecp in $devops"
