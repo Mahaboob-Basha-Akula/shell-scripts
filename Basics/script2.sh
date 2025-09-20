@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-devops=
+devops=$1
 
 echo "started"
 
