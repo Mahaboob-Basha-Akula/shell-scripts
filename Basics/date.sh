@@ -5,7 +5,7 @@
 
 Start_time=$(date +%s)
 
-sleep 5 &
+sleep 5 
 
 echo "script running "
 
