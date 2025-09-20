@@ -23,3 +23,5 @@
 echo " all variable used $@"
 
 echo " used variable useed $*"
+
+echo "my Script name is $0"
