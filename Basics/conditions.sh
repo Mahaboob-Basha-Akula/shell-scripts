@@ -3,10 +3,10 @@
 
 NUMBER=$1
 
-if [$NUMBER lt]; then
-    echo "Given number is $NUMBER" IS correct
+if [$NUMBER lt 1]; then
+    echo "Given number is $NUMBER IS correct "
 
 else
-    echo "Given number is $NUMBER" IS wrong   
+    echo "Given number is $NUMBER IS wrong "  
 
 fi    
