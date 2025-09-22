@@ -3,10 +3,9 @@
 
 NUMBER=$1
 
-if [ $NUMBER -lt 10 ]; then
-    echo "Given number is $NUMBER Is less than 10 "
-
+if [ $NUMBER -lt 10]; then
+    echo "The given number is $NUMBER is less than 10"
 else
-    echo "Given number is $NUMBER IS not less than 10 "  
+    echo "The given number is $NUMBER is not less than 10"
 
 fi    
