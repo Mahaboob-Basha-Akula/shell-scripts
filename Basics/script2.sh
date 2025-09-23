@@ -3,11 +3,11 @@
 
 COURSE=$1
 
-echo "learning $COURSE"
+echo "learning {$COURSE}"
 
-echo "classes for $COURSE"
+echo "classes for {$COURSE}"
 
-echo " have 3+ years of ecp in $COURSE"
+echo " have 3+ years of ecp in {$COURSE}"
 
 echo "started"
 
