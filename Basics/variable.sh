@@ -1,5 +1,6 @@
 #!/bin/bash
 
+COURSE=DEVOPS
 
 echo "please enter your pin number"
 
