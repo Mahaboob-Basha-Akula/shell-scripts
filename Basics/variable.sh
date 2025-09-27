@@ -9,7 +9,7 @@ echo "$Start_Time"
 echo "script execution started "
 
 
-sleep 20s
+sleep 20
 
 echo "$End_Time"
 
