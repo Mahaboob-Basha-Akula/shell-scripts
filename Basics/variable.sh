@@ -17,3 +17,5 @@ Total_Time=$(($End_Time-$Start_Time))
 
 
 echo "Timestamp : $Total_Time in seconds"
+
+echo "All variable used are $@"
