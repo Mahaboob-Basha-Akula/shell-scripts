@@ -1,11 +1,5 @@
 #!/bin/bash
 
-COURSE=$1
+DATE=$(date)
 
-echo "please enter your pin number"
-
-read -s PIN_NUMBER 
-
-echo "withdraw successfull"
-
-echo "I am learning $COURSE"
+echo "Timestamp : $DATE"
