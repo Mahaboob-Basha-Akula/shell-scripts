@@ -1,7 +1,7 @@
 #!/bin/bash
 
-Start_Time=$(date )
-End_Time=$(date )
+Start_Time=$(date +%s)
+End_Time=$(date +%s )
 
 
 echo "$Start_Time"
@@ -16,4 +16,4 @@ echo "$End_Time"
 Total_Time=$(($End_Time-$Start_Time))
 
 
-echo "Timestamp : $Total_Time"
+echo "Timestamp : $Total_Time in seconds"
