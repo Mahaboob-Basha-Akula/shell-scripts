@@ -30,6 +30,6 @@ echo "location: $HOME"
 
 echo "PID is : $$"
 
-sleep 5
+sleep 5&
 
 echo "PID of last command in background is :$! "
