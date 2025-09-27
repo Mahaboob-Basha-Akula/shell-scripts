@@ -1,5 +1,7 @@
 #!/bin/bash
+PERSON1=
+PERSON2=
 
-echo "putin :: started to USA"
+echo "$PERSON1 :: started to USA"
 
-echo "Trump :: started to moscow"
+echo "$PERSON2 :: started to moscow"
