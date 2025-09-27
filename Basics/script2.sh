@@ -3,7 +3,7 @@
 
 COURSE=$1
 
-echo "learning {$COURSE}"
+echo "learning ${COURSE}"
 
 echo "classes for {$COURSE}"
 

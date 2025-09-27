@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "started learning"
+echo "putin :: started to USA"
+
+echo "Trump :: started to moscow"
