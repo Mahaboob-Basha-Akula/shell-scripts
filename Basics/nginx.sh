@@ -39,7 +39,9 @@ CHECK_INSTALL(){
 }
 
 dnf install mysql -y
+CHECK_INSTALL $?
 
 dnf install python3 -y
+CHECK_INSTALL $?
 VALIDATE $? "python3"
 
