@@ -8,7 +8,7 @@ N="\E[0m"
 
 
 if [ $ID -ne 0 ]; then 
-    echo "Root access reuqired"
+    echo -e " $R Root access reuqired $N"
     exit 1
 fi
 
