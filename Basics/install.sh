@@ -5,6 +5,7 @@ ID=$(id -u)
 
 if [ $ID -ne 0 ]; then
     echo "The script needs to run with root privilages"
+    exit 1
     
 fi
 
