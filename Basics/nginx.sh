@@ -33,7 +33,7 @@ CHECK_INSTALL(){
         dnf install nginx -y
         VALIDATE $? "nginx"
     else
-        echo -e "$4 is already installed... $Y .... SKIPPING"
+        echo -e "$4 is already installed... $Y .... SKIPPING $N"
     fi
 
 }
