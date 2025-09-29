@@ -21,8 +21,8 @@ VALIDATE(){
     
 }
 
-dnf install nginx
-VALIDATE $? "nginx"
+# dnf install nginx
+# VALIDATE $? "nginx"
 
 # if [ $? -ne 0 ]; then 
 #     echo "Installation of nginx is failed"
@@ -30,5 +30,14 @@ VALIDATE $? "nginx"
 # else
 #     echo -e "Installation of nginx is $G success $N "
 # fi
+
+dnf list installed nginx
+
+if [ $? -ne o ]; then 
+    dnf install nginx -y
+    VALIDATE $? "nginx"
+else
+    echo "Nginx already installed"
+fi
 
 
