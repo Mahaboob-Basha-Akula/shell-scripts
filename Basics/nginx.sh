@@ -13,11 +13,11 @@ fi
 
 VALIDATE(){
     if [ $? -ne 0 ]; then
-        echo -e "$2 installation \e[32m failed "
+        echo -e "$2 installation $R failed "
         exit 1
 
     else 
-        echo -e "$2 installation is   \e[32m success"
+        echo -e "$2 installation is $Y success"
 
     fi
 
