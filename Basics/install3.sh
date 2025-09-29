@@ -33,7 +33,7 @@ VALIDATE(){
 
 dnf list installed nginx
 
-if [ $? -ne o ]; then 
+if [ $? -ne 0 ]; then 
     dnf install nginx -y
     VALIDATE $? "nginx"
 else
