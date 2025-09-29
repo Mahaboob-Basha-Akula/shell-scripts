@@ -25,8 +25,20 @@ VALIDATE(){
 
 }
 
-dnf install nginx -y
-VALIDATE $? "nginx"
+CHECK_INSTALL(){
+    dnf list installed $4
+
+    if [$? -ne 0 ]; then
+
+        dnf install nginx -y
+        VALIDATE $? "nginx"
+    else
+        echo -e "$4 is already installed... $Y .... SKIPPING"
+    fi
+
+}
+
+dnf install mysql -y
 
 dnf install python3 -y
 VALIDATE $? "python3"
