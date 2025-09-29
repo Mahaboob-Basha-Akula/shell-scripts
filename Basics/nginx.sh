@@ -8,7 +8,7 @@ if [ $ID -ne 0 ]; then
 fi
 
 VALIDATE(){
-    if [ $! -ne 0 ]; then
+    if [ $? -ne 0 ]; then
         echo "$2 installation failed "
         exit 1
 
