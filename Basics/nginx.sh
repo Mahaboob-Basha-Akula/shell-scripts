@@ -1,6 +1,10 @@
 #!/bin/bash
 
 ID=$( id -u)
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+
 
 if [ $ID -ne 0 ]; then 
     echo "Root access reuqired"
@@ -9,11 +13,11 @@ fi
 
 VALIDATE(){
     if [ $? -ne 0 ]; then
-        echo "$2 installation failed "
+        echo -e "$2 installation \e[32m failed "
         exit 1
 
     else 
-        echo "$2 installation is  -e \e[32m success"
+        echo -e "$2 installation is   \e[32m success"
 
     fi
 
