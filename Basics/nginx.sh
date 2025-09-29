@@ -7,13 +7,22 @@ if [ $ID -ne 0 ]; then
     exit 1
 fi
 
+VALIDATE(){
+    if [ $! -ne 0 ]; then
+        echo "$2 installation failed "
+        exit 1
+
+    else 
+        echo "$2 installation is success"
+
+    fi
+
+
+}
+
 dnf install nginx -y
+VALIDATE $? "nginx"
 
-if [ $? -ne 0 ]; then
-    echo "Nginx installation failed "
-    exit 1
+dnf install mongodb-mongosh -y
+VALIDATE $? "mongodb-mongosh"
 
-else 
-    echo "ngainx installation is success"
-
-fi
