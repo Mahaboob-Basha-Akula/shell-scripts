@@ -13,7 +13,7 @@ VALIDATE(){
         exit 1
 
     else 
-        echo "$2 installation is \e[32m success"
+        echo "$2 installation is  -e \e[32m success"
 
     fi
 
